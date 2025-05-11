@@ -1,0 +1,45 @@
+.scoreSelect {
+    width: 20%;
+}
+
+.dateFilter {
+    background: inherit;
+    border: 1px solid #cccccc;
+    color: hsl(0, 0%, 50%);
+    width: 20%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (min-device-width: 325px) and (max-device-width: 600px) {
+    .scoreSelect {
+        width: 50%;
+    }
+
+    .dateFilter {
+        width: 60%;
+    }
+
+    .mobileDateFilter {
+        text-align: center;
+    }
+
+    .mobileDateFilter > div {
+        flex-direction: column;
+    }
+
+    .mobileDateFilter > div > div {
+        width: 100%;
+    }
+}

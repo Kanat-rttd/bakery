@@ -1,0 +1,8 @@
+.inputsContainer {
+    width: 40%;
+}
+@media (max-width: 760px) {
+    .inputsContainer {
+        width: 90%;
+    }
+}
